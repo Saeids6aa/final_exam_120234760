@@ -1,0 +1,40 @@
+import '../models/order.dart';
+
+final List<Order> fakeOrders = [
+  Order(
+    title: 'Gold Standard 100% Whey',
+    price: '\$26.99',
+    oldPrice: '\$28.99',
+    status: 'Delivered',
+    date: '2018-07-18 12:00 PM',
+    qty: 2,
+    amount: '\$26',
+    total: '\$52',
+    image: 'assets/images/sad.png',
+    isDelivered: true,
+  ),
+  Order(
+    title: 'Gold Standard 100% Whey',
+    price: '\$26.99',
+    oldPrice: '\$28.99',
+    status: 'Awaiting delivery',
+    date: '2018-07-18 12:00 PM',
+    qty: 2,
+    amount: '\$26',
+    total: '\$52',
+    image: 'assets/images/sad.png',
+    isDelivered: false,
+  ),
+  Order(
+    title: 'Gold Standard 100% Whey',
+    price: '\$26.99',
+    oldPrice: '\$28.99',
+    status: 'Awaiting delivery',
+    date: '2018-07-18 12:00 PM',
+    qty: 2,
+    amount: '\$26',
+    total: '\$52',
+    image: 'assets/images/sad.png',
+    isDelivered: false,
+  ),
+];
